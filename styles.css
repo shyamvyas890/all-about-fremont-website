@@ -1,0 +1,110 @@
+body{
+    font-family: 'Spinnaker', sans-serif;
+}
+.flexcontainer {
+    display:flex;
+    flex-direction: column;
+}
+.eyes{
+    background-image:url("https://upload.wikimedia.org/wikipedia/commons/a/ac/Mission_Peak_over_Lake_Elizabeth%2C_in_Fremont%2C_California_%28cropped%29.JPG");
+    background-size:100% 100%;
+    width:920px;
+    height:350px;
+    margin:auto;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#fremont {
+    background-color:#ff0026;
+    color:#FFFFFF;
+    text-align: center; 
+    font-size: 32px;
+    border-radius: 10px;
+    padding:3px 12px;
+}
+#enjoy{
+    color:#FFFFFF;
+    background-color: #edadb7;
+    width:415px;
+    text-align:center;
+    font-size:18.72px;
+    padding: 7px 35px;
+    border-radius:10px;
+}
+.activity{
+    display:flex;
+    flex-direction: column;
+    width:920px;
+    height:350px;
+    text-align: center;
+    margin:auto;
+    background-color:#f0f5df;
+    justify-content: space-around;
+
+}
+#images, #titles, #descriptions{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-around;
+    align-items: center;
+
+    
+}
+.image, .title, .description {
+    padding-left:50px;
+    padding-right:50px;
+}
+.image{
+    padding-top:10px;
+}
+
+.title, .description{
+    font-size: 16px;
+    color:#1D3557;
+}
+
+.description{
+    color:#1D3557;
+}
+
+.image{
+    width:100px;
+    height:99.34px;
+    border-radius:50%;
+}
+.random{
+    width:250px;
+}
+
+.card{
+    width:920px;
+    height:350px;
+    margin:auto;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.card:hover {
+    background-color: #96d1fd;
+}
+
+#actual-card{
+    width:580px;
+    height:294px;
+    background-color: #A8DADC;
+    display: flex;
+    flex-direction: row;
+    box-shadow:0px 6px 0px #1D3557;
+    border-radius:10px;
+}
+
+#shyamspic {
+    height:80%;
+    width:50%;
+    margin-top:20px;
+    margin-left:20px;
+    margin-right:20px;
+    border-radius:20px;
+}
